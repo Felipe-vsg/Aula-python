@@ -6,4 +6,12 @@
 
 
 
-print
+nome_produto = str (input("Nome do produto:"))
+
+preço = float(input("Preço do produto :"))
+
+quantidade = int (input ("Quantidade :"))
+
+print (f"nome produto :{nome_produto}\npreço produto :{preço}\nQuantidade :{quantidade}")
+
+
